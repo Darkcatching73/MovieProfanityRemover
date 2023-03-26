@@ -24,7 +24,7 @@ To install the program, follow these steps:
 Clone this repository onto your Raspberry Pi:
 bash
 Copy code
-git clone https://github.com/your-username/hdmi-cc-filter.git
+git clone https://github.com/Darkcatching73/hdmi-cc-filter.git
 Navigate to the hdmi-cc-filter directory:
 bash
 Copy code
