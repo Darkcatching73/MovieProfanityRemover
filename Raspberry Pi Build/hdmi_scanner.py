@@ -13,7 +13,7 @@ cap = cv2.VideoCapture(0)
 parser = WebVTT()
 
 # Load swear words list from a localized CSV file hosted online
-response = requests.get('https://example.com/swear_words.csv')
+response = requests.get('https://gist.github.com/mcmaloney/1262336/raw/e726672c406c3ed3bcde4da3337cca6199dc61da/profanity.csv')
 swear_words_list = response.text.split(',')
 
 # Mute audio output
